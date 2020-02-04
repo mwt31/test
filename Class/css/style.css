@@ -1,0 +1,21 @@
+
+
+h1
+{
+  color:red;
+}
+
+/* this is a class */
+.container
+{
+  background-color: #9C4FF5;
+  width: 600px;
+  Margin: auto;
+}
+/* this is an id */
+#dog {
+  background-color: pink;
+  width: 400px;
+
+
+}
