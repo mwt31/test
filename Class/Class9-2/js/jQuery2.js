@@ -2,11 +2,11 @@ $(document).ready( function(){
 
 
 $("#_hide").click(function(){
-  $(".gridContent div:first-child p").hide();
+  $(".gridContent div:first-child p").hide(3000);
 });
 
 $("#_show").click(function(){
-  $(".gridContent div:first-child p").show();
+  $(".gridContent div:first-child p").show(3000);
 });
 
 $("#_toggle").click( function(){
@@ -18,7 +18,7 @@ $("#_html").click(function() {
 });
 
 $("#_css").click(function(){
-  $(".box").css("background-color", "lightblue");
+  $(".box").css({"background-color":"lightblue","width":"100px","height":"100px"});
 });
 
 
@@ -34,7 +34,20 @@ $("footer").mouseleave(function() {
 
 // --------------------- Debug #4 ----------------------------
 
-// Here goes your jQuery :
+
+$("*Tog").click(function(){
+$(".smallGridBug div:first-child p").toggle();
+});
+
+$("*hm").click(function(){
+  $(".smallGridBug div:nth-child(3)p")._html({"<h1>Hello World </h1>"});
+});
+
+$("*ddd").click(function(){
+
+$(".smallGridBug div:nth-child(3) p").css("color","lightblue");
+}
+
 
 
 
