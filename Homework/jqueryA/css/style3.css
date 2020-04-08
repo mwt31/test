@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(42, 161, 152);
+}
+
+h1
+{
+  color: red;
+}
+
+.container
+{
+  margin:auto;
+  padding: 60px;
+  background-color: white;
+  width: 70%;
+  box-shadow: 10px 12px 8px 5px #ededed;
+  border-radius: 40px;
+}
+
+.container h1 {
+  font-size: 4em;
+}
+
+.sidebar {
+  float: left;
+  margin-left: 80px;
+  padding: 20px;
+  background-color: white;
+  width: 10%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontaLine {
+  padding-top: 20px;
+}
+
+.horizontaLine li {
+  display: inline;
+  margin: 20px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+  border-radius: 20px;
+}
+
+.horizontaLine li a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontaLine li a:hover {
+  color: red;
+}
+
+.grid-container {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid1{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.grid2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}

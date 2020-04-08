@@ -1,0 +1,83 @@
+body {
+  background-color: rgba(255, 0, 0, 0.5);(247, 245, 245);
+}
+
+h1
+{
+  color: red;
+}
+
+.bontainer
+{
+  margin:auto;
+  padding: 60px;
+  background-color: white;
+  width: 70%;
+  box-shadow: 10px 12px 8px 5px #ededed;
+  border-radius: 40px;
+}
+
+.bontainer h1 {
+  font-size: 4em;
+}
+
+.bidebar {
+  float: left;
+  margin-left: 80px;
+  padding: 20px;
+  background-color: white;
+  width: 10%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+
+.bavigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.borizontaLine {
+  padding-top: 20px;
+}
+
+.borizontaLine li {
+  display: inline;
+  margin: 20px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+  border-radius: 20px;
+}
+
+.borizontaLine li a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.borizontaLine li a:hover {
+  color: red;
+}
+
+.brid-bontainer {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.brid1{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.brid2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}

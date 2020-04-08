@@ -172,16 +172,15 @@ h1
 .smallGridBug
 {
   width: 90%;
-  height: 200%;
+  height: 100%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.smallGridBug div:first-child p
+.smallGridBug div p
 {
   font-size: 14px;
-  padding: 60px;
-  background-color: #f1f1f1;
+  padding: 25px;
 }
 
 
