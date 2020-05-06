@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(17,17,17);
+  background-color: #e0e0e0;
 }
 
 h1
@@ -62,7 +62,7 @@ h1
   color: red;
 }
 
-.grid-container {
+.splorg {
 width: 100%;
 height: 100vh;
 margin: auto;
@@ -72,12 +72,12 @@ margin: auto;
   grid-template-columns: 1fr 1fr;
 }
 
-.grid1{
+.splorg1{
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
-.grid2{
+.splorg2{
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;

@@ -1,42 +1,33 @@
 body {
-  background-color: rgb(17,17,17);
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 h1
 {
-    color:
-    font-family: 'Bebas Neue';
+
 }
 /* this is class on the div in my HTML */
 .container
 {
   margin: auto;
-  padding: 60px;
-  background-color: white;
+  padding: 100px;
+  background-color: green;
   width: 70%;
   box-shadow: 10px 12px 8px 5px #ededed;
   border-radius: 40px;
 }
 /* This will affect all the h1 inside my class container */
 .container h1 {
-  font-size: 4em;
+  font-size: 2em;
 }
 /* We added this class to my sidebar */
-.sidebar {
-  float: left;
-  margin-left: 80px;
-  padding: 20px;
-  background-color: white;
-  width: 10%;
-  box-shadow: 6px 7px 5px 2px #ededed;
-  border-radius: 20px;
-}
+
 /* we use this to create a style for my navigation tag */
 .navigation {
   display: table;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 80px;
+  margin-top: 90px;
+  margin-bottom: 100px;
 }
 /* this was used in my ul tag inside my nav */
 .horizontaLine {
@@ -45,15 +36,15 @@ h1
 /* this will affect all the li childs inside my horizontaLine */
 .horizontaLine li {
   display: inline;
-  margin: 20px;
+  margin: 10px;
   padding: 20px 60px 20px 60px;
   background-color: white;
   width: 10%;
-  border-radius: 20px;
+  border-radius: 90px;
 }
 /* this will affect all the a tags nested on the li elements */
 .horizontaLine li a {
-  color: gray;
+  color: blue;
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -63,8 +54,8 @@ h1
 }
 
 .grid-container {
-width: 100%;
-height: 100vh;
+width: 700%;
+height: 150vh;
 margin: auto;
 
   display: grid;
